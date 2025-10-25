@@ -1,36 +1,173 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 AI Coding Companion
 
-## Getting Started
+An AI-powered coding companion specifically designed for students and hackathon developers. Built with Next.js, TypeScript, and Monaco Editor.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### 🤖 AI-Powered Assistance
+- **Smart Code Explanations** - Get detailed explanations of how your code works
+- **Debugging Help** - Instant assistance with errors and bugs
+- **Code Improvement Suggestions** - Learn best practices and optimization tips
+- **Educational Responses** - Tailored explanations for learning
+
+### 📚 Student-Focused Learning
+- **Beginner-Friendly** - Perfect for students new to programming
+- **Concept Explanations** - Understand programming fundamentals
+- **Step-by-Step Guidance** - Learn at your own pace
+- **Interactive Learning** - Hands-on coding with AI support
+
+### 🏆 Hackathon Helpers
+- **Quick Start Templates** - Ready-to-use code templates for common projects
+- **Rapid Prototyping** - Build MVPs quickly with AI assistance
+- **Common Patterns** - Authentication, APIs, data structures, and more
+- **Time-Saving Tips** - Focus on innovation, not boilerplate
+
+### 💻 Modern Development Experience
+- **Monaco Editor** - Professional code editor with syntax highlighting
+- **Multi-Language Support** - JavaScript, TypeScript, Python, Java, C++, and more
+- **File Management** - Create, edit, and organize multiple files
+- **Dark/Light Themes** - Comfortable coding in any environment
+- **Responsive Design** - Works on desktop and mobile devices
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone <your-repo-url>
+   cd ai-coding-companion
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 🎯 How to Use
+
+### 1. **Code Editor**
+- Select files from the sidebar to edit
+- Write code with full syntax highlighting
+- Use keyboard shortcuts for productivity
+
+### 2. **AI Chat**
+- Switch to the "AI Chat" tab
+- Ask questions about your code
+- Get explanations, debugging help, and suggestions
+- Use quick prompts for common requests
+
+### 3. **Learning Mode**
+- Ask "Explain this code" for detailed breakdowns
+- Request "How can I improve this?" for optimization tips
+- Use "I'm new to programming" for beginner guidance
+
+### 4. **Hackathon Mode**
+- Ask for starter templates: "Give me a React starter template"
+- Get quick solutions: "How do I implement user authentication?"
+- Request common patterns: "Show me how to make an API call"
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js 16, React 19, TypeScript
+- **Styling**: Tailwind CSS v4
+- **Code Editor**: Monaco Editor (VS Code editor)
+- **UI Components**: Radix UI, Lucide React icons
+- **State Management**: React hooks
+- **Build Tool**: Next.js with Webpack
+
+## 📁 Project Structure
+
+```
+src/
+├── app/                 # Next.js app directory
+│   ├── globals.css     # Global styles
+│   ├── layout.tsx      # Root layout
+│   └── page.tsx        # Main page
+├── components/         # React components
+│   ├── ui/            # Reusable UI components
+│   ├── AIChat.tsx     # AI chat interface
+│   ├── CodeEditor.tsx # Monaco editor wrapper
+│   ├── FileExplorer.tsx # File management
+│   └── Header.tsx     # App header
+└── lib/               # Utility functions
+    └── utils.ts       # Helper functions
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Customization
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Adding New Languages
+The editor automatically detects file extensions and applies appropriate syntax highlighting. Supported languages include:
+- JavaScript/TypeScript
+- Python
+- Java
+- C/C++
+- CSS/HTML
+- JSON
+- Markdown
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Theming
+The app supports both light and dark themes. Toggle using the theme button in the header.
 
-## Learn More
+### AI Responses
+The AI responses are currently simulated. In a production app, you would integrate with:
+- OpenAI GPT API
+- Anthropic Claude API
+- Local LLM models
+- Custom AI services
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Vercel (Recommended)
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Deploy with zero configuration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Other Platforms
+- **Netlify**: Build command: `npm run build`, Publish directory: `out`
+- **Railway**: Automatic deployment from GitHub
+- **Docker**: Use the included Dockerfile
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'Add amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- **Monaco Editor** - The amazing code editor that powers VS Code
+- **Next.js Team** - For the incredible React framework
+- **Tailwind CSS** - For the utility-first CSS framework
+- **Radix UI** - For accessible UI components
+- **Lucide** - For beautiful icons
+
+## 📞 Support
+
+- **Issues**: [GitHub Issues](https://github.com/your-username/ai-coding-companion/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/your-username/ai-coding-companion/discussions)
+- **Email**: your-email@example.com
+
+---
+
+**Built with ❤️ for students and hackathon developers**
+
+*Happy coding! 🚀*
