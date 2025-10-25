@@ -128,17 +128,7 @@ The AI responses are currently simulated. In a production app, you would integra
 - Local LLM models
 - Custom AI services
 
-## 🚀 Deployment
 
-### Vercel (Recommended)
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Deploy with zero configuration
-
-### Other Platforms
-- **Netlify**: Build command: `npm run build`, Publish directory: `out`
-- **Railway**: Automatic deployment from GitHub
-- **Docker**: Use the included Dockerfile
 
 ## 🤝 Contributing
 
@@ -160,14 +150,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Radix UI** - For accessible UI components
 - **Lucide** - For beautiful icons
 
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/your-username/ai-coding-companion/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-username/ai-coding-companion/discussions)
-- **Email**: your-email@example.com
 
 ---
 
-**Built with ❤️ for students and hackathon developers**
 
-*Happy coding! 🚀*
