@@ -26,7 +26,6 @@ An AI-powered coding companion specifically designed for students and hackathon 
 - **Monaco Editor** - Professional code editor with syntax highlighting
 - **Multi-Language Support** - JavaScript, TypeScript, Python, Java, C++, and more
 - **File Management** - Create, edit, and organize multiple files
-- **Dark/Light Themes** - Comfortable coding in any environment
 - **Responsive Design** - Works on desktop and mobile devices
 
 ## 🚀 Getting Started
