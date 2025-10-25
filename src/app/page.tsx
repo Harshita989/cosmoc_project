@@ -7,9 +7,13 @@ import { FileExplorer } from '@/components/FileExplorer';
 import { Header } from '@/components/Header';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Code, MessageSquare, FileText, Lightbulb } from 'lucide-react';
+import { useUser, RedirectToSignIn, UserButton } from "@clerk/nextjs";
 
 export default function Home() {
   const [activeFile, setActiveFile] = useState('main.js');
+  const { isSignedIn, user } = useUser();
+
+ 
   const [files, setFiles] = useState({
     'main.js': `// Welcome to AI Coding Companion!
 // This is your main JavaScript file
@@ -439,14 +443,21 @@ body {
 - Check "Docs" tab for comprehensive documentation
 
 Happy coding! 🎉`
-  });
 
+  });
+ if (!isSignedIn) return <RedirectToSignIn />;
   const updateFile = (filename: string, content: string) => {
     setFiles(prev => ({ ...prev, [filename]: content }));
   };
 
   return (
     <div className="h-screen bg-gray-50 dark:bg-gray-900 flex flex-col overflow-hidden">
+       <div className="flex justify-between items-center">
+        <h1 className="text-2xl font-bold">
+          Welcome, {user?.firstName || "Developer"} 👋
+        </h1>
+        <UserButton afterSignOutUrl="/sign-in" />
+      </div>
       <Header />
       
       <div className="flex-1 flex overflow-hidden">
