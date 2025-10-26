@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { CodeEditor } from '@/components/CodeEditor';
-import { AIChat } from '@/components/AIChatSimple';
+import  {AIChat} from '@/components/AIChatSimple';
 import { FileExplorer } from '@/components/FileExplorer';
 import { Header } from '@/components/Header';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
