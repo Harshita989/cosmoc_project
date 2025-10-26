@@ -1,3 +1,9 @@
+## Problem Statement
+Students, beginners, and hackathon participants often struggle with writing, debugging, and understanding code quickly. Searching for solutions on the internet is time-consuming and not personalized to their specific issue. There is a need for an intelligent, real-time coding assistant that provides accurate, context-aware help instantly.
+---
+## Solution Summary
+AI Coding Companion is a web-based AI assistant powered by Google Gemini that provides real-time code suggestions, debugging help, and concept explanations. Users can chat with the AI just like a coding mentor to solve errors, learn syntax, and optimize their code. Built using Next.js and Gemini API, it offers a seamless and interactive experience.
+
 # 🚀 AI Coding Companion
 
 An AI-powered coding companion specifically designed for students and hackathon developers. Built with Next.js, TypeScript, and Monaco Editor.
@@ -28,6 +34,17 @@ An AI-powered coding companion specifically designed for students and hackathon 
 - **File Management** - Create, edit, and organize multiple files
 - **Responsive Design** - Works on desktop and mobile devices
 
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js 16, React 19, TypeScript
+- **Styling**: Tailwind CSS v4
+- **Code Editor**: Monaco Editor (VS Code editor)
+- **UI Components**: Radix UI, Lucide React icons
+- **State Management**: React hooks
+- **Build Tool**: Next.js with Webpack
+
+
+```
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -55,6 +72,12 @@ An AI-powered coding companion specifically designed for students and hackathon 
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
+
+## Demo Video 
+**YouTube Link:**
+
+
+`https://youtu.be/pDC2Lw_gF98`
 ## 🎯 How to Use
 
 ### 1. **Code Editor**
@@ -78,14 +101,6 @@ An AI-powered coding companion specifically designed for students and hackathon 
 - Get quick solutions: "How do I implement user authentication?"
 - Request common patterns: "Show me how to make an API call"
 
-## 🛠️ Tech Stack
-
-- **Frontend**: Next.js 16, React 19, TypeScript
-- **Styling**: Tailwind CSS v4
-- **Code Editor**: Monaco Editor (VS Code editor)
-- **UI Components**: Radix UI, Lucide React icons
-- **State Management**: React hooks
-- **Build Tool**: Next.js with Webpack
 
 ## 📁 Project Structure
 
@@ -117,8 +132,7 @@ The editor automatically detects file extensions and applies appropriate syntax 
 - JSON
 - Markdown
 
-### Theming
-The app supports both light and dark themes. Toggle using the theme button in the header.
+
 
 ### AI Responses
 The AI responses are currently simulated. In a production app, you would integrate with:
@@ -151,5 +165,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 ---
+Thank you
 
-
+Made by Harshita
+Roll No : 12201132
+Gmail: harshitakhandoli@gmail.com
