@@ -1,14 +1,17 @@
-## Problem Statement
+## Problem Statement: CLONE & ELEVATE
 Students, beginners, and hackathon participants often struggle with writing, debugging, and understanding code quickly. Searching for solutions on the internet is time-consuming and not personalized to their specific issue. There is a need for an intelligent, real-time coding assistant that provides accurate, context-aware help instantly.
 ---
+
+
 ## Solution Summary
 AI Coding Companion is a web-based AI assistant powered by Google Gemini that provides real-time code suggestions, debugging help, and concept explanations. Users can chat with the AI just like a coding mentor to solve errors, learn syntax, and optimize their code. Built using Next.js and Gemini API, it offers a seamless and interactive experience.
+
 
 # 🚀 AI Coding Companion
 
 An AI-powered coding companion specifically designed for students and hackathon developers. Built with Next.js, TypeScript, and Monaco Editor.
 
-## ✨ Features
+## ✨ Features                                                       
 
 ### 🤖 AI-Powered Assistance
 - **Smart Code Explanations** - Get detailed explanations of how your code works
@@ -77,7 +80,7 @@ An AI-powered coding companion specifically designed for students and hackathon 
 **YouTube Link:**
 
 
-`https://youtu.be/pDC2Lw_gF98`
+[https://youtu.be/pDC2Lw_gF98](https://youtu.be/pDC2Lw_gF98)
 ## 🎯 How to Use
 
 ### 1. **Code Editor**
@@ -151,9 +154,7 @@ The AI responses are currently simulated. In a production app, you would integra
 4. Push to the branch: `git push origin feature/amazing-feature`
 5. Open a Pull Request
 
-## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
