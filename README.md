@@ -171,4 +171,4 @@ Thank you
 Made by Harshita
 Gmail: harshitakhandoli@gmail.com
 
-![1775330905538](image/README/1775330905538.png)
+![1775330905538](/README/1775330905538.png)
