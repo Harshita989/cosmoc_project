@@ -169,5 +169,7 @@ The AI responses are currently simulated. In a production app, you would integra
 Thank you
 
 Made by Harshita
-Roll No : 12201132
 Gmail: harshitakhandoli@gmail.com
+![1775330716417](image/README/1775330716417.png)
+![1775330735920](image/README/1775330735920.png)
+![1775330757323](image/README/1775330757323.png)
