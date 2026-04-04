@@ -117,9 +117,17 @@ src/
 │   ├── ui/            # Reusable UI components
 │   ├── AIChat.tsx     # AI chat interface
 │   ├── CodeEditor.tsx # Monaco editor wrapper
-│   ├── FileExplorer.tsx # File management
-│   └── Header.tsx     # App header
-└── lib/               # Utility functions
+Thank you
+Made by Harshita
+Gmail: harshitakhandoli@gmail.com
+
+## 📸 Screenshots
+
+![Screenshot 1](/README/1775330716417.png)
+![Screenshot 2](/README/1775330735920.png)
+![Screenshot 3](/README/1775330736943.png)
+![Screenshot 4](/README/1775330757323.png)
+![Screenshot 5](/README/1775330905538.png)
     └── utils.ts       # Helper functions
 ```
 
@@ -171,4 +179,5 @@ Thank you
 Made by Harshita
 Gmail: harshitakhandoli@gmail.com
 
-![1775330905538](/README/1775330905538.png)
+
+
