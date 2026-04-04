@@ -107,7 +107,7 @@ An AI-powered coding companion specifically designed for students and hackathon 
 
 ## 📁 Project Structure
 
-```
+
 src/
 ├── app/                 # Next.js app directory
 │   ├── globals.css     # Global styles
@@ -121,7 +121,7 @@ Thank you
 Made by Harshita
 Gmail: harshitakhandoli@gmail.com
 
-## 📸 Screenshots
+📸 Screenshots
 
 ![Screenshot 1](/README/1775330716417.png)
 ![Screenshot 2](/README/1775330735920.png)
