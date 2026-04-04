@@ -112,3 +112,4 @@ const callOllama = async (message: string) => {
     return 'Sorry, I encountered an error. Please try again.';
   }
 };
+

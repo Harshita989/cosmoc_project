@@ -57,3 +57,5 @@ Try asking:
 - "Give me a hackathon project idea"
 
 Your AI Coding Companion is now powered by Google Gemini! 🎉
+
+

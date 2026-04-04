@@ -64,3 +64,4 @@ const handleSendMessage = async (messageText: string) => {
     setIsLoading(false);
   }
 };
+

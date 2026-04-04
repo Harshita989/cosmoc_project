@@ -178,3 +178,5 @@ const validateInput = (input) => {
 **Your AI Coding Companion is now a powerful file manipulation tool!** 🎉
 
 Try it out and see how it can accelerate your development workflow!
+
+

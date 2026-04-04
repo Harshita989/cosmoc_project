@@ -77,3 +77,5 @@ Check console for these specific logs:
 - "File action detected: [type]"
 
 **The debugging logs will show exactly what's happening!** 🔍
+
+

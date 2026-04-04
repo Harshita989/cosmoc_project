@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
+import { CartProvider } from "@/lib/cart";
 
 
 const geistSans = Geist({
@@ -28,7 +29,9 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
-          {children}
+          <CartProvider>
+            {children}
+          </CartProvider>
         </body>
       </html>
     </ClerkProvider>
