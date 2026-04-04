@@ -170,6 +170,5 @@ Thank you
 
 Made by Harshita
 Gmail: harshitakhandoli@gmail.com
-![1775330716417](image/README/1775330716417.png)
-![1775330735920](image/README/1775330735920.png)
-![1775330757323](image/README/1775330757323.png)
+
+![1775330905538](image/README/1775330905538.png)
